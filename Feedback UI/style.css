@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: lightcyan;
+    color: darkgreen;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    
+
+
+}
+
+
+.container{
+    background-color: rgba(red, green, blue, .3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .3) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 50px;
+    width: 75%;
+    max-width: 400px;
+    text-align: center;
+    font-size: 1.5rem;
+    gap: 2rem;
+}
+
+img{
+    width: 50px;
+    height: auto;
+}
+
+.ratings-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.rating{
+    cursor: pointer;
+    padding: 20px;
+}
+.rating:hover, .rating.active{
+  color: white;
+  background-color: #ffc107;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+  transition: all 300ms ease ;
+  -webkit-transition: all 300ms ease ;
+  -moz-transition: all 300ms ease ;
+  -ms-transition: all 300ms ease ;
+  -o-transition: all 300ms ease ;
+}
+
+
+
+
+.btn{
+    background-color: darkcyan;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 1rem;
+}
+btn:hover{
+    box-shadow: 5px 5px 50px rgba(0,0,0,.5);
+  transition: all 300ms ease ;
+  transition: all 300ms ease ;
+  -webkit-transition: all 300ms ease ;
+  -moz-transition: all 300ms ease ;
+  -ms-transition: all 300ms ease ;
+  -o-transition: all 300ms ease ;
+}
+
+.btn:active, .rating:active{
+   transform: scale(1.2);
+   transition: all 400ms ease;
+   -webkit-transition: all 400ms ease;
+   -moz-transition: all 400ms ease;
+   -ms-transition: all 400ms ease;
+   -o-transition: all 400ms ease;
+   -webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+   -ms-transform: scale(1.2);
+   -o-transform: scale(1.2);
+}

@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+    background : linear-gradient(125deg, rgba(3,203,243,.3),rgba(5,130,213));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family:monospace ;
+}
+
+.container{
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+}
+
+.location #input-box{
+
+    font-size: larger;
+    width: 80%;
+    outline: none;
+    border: none;
+   
+   
+
+}
+
+.location i{
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,255,255,.449);
+    padding: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -ms-transition: background-color .5s;
+    -o-transition: background-color .5s;
+}
+
+.search-icon:hover{
+    background-color: rgba(23,191,255,.7);
+}
+
+.weather-box{
+    padding: 0 50px;
+    text-align: center;
+
+}
+
+.weather-box img{
+    width: 70%;
+    height: auto;
+    
+}
+.weather-box .temperature{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top :20px;
+
+}
+
+.weather-box .description{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.weather-details{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 50px;
+
+}
+
+.humidity, .wind{
+    display: flex;
+    font-size: 1.2rem;
+    
+}
+.humidity i, .wind i{
+    padding: 10px;
+    
+}
+
+
+.humidity-details , .wind-details{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
